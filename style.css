@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: antiquewhite;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 1rem;
+    color: white;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.hero, .about, .contact {
+    text-align: center;
+    padding: 50px;
+    background: lightblue;
+}
+.product {
+    text-align: center;
+    padding: 20px;
+}
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.product {
+    border: 1px solid grey;
+    padding: 10px;
+    width: 200px;
+}
+.product img {
+    max-width: 100%;
+}
+.about, .contact {
+    background: #9a2828;
+    padding: 50px;
+}
+.contact{
+    background: black;
+    color: white;
+}
+.about h1, .contact h1 {
+    color: #000000;
+}
+.about p{
+    color: rgb(0, 0, 0);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+ .contact p {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #ffffff;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+
+.about, .contact {
+    padding: 40px;
+    background-color: lightsalmon;
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.about h2, .contact h2 {
+    text-align: center;
+    color: #000000;
+}
+.contact p{
+    color: black;
+}
+.about ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.contact form input, .contact form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+.contact form label{
+    color: #000000;
+}
+button {
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    background-color: #555;
+}
